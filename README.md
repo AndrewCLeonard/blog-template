@@ -14,8 +14,8 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 _GIVEN a CMS-style blog site..._
 
-| WHEN I...                                                      | THEN I...                                                                                                                                                                 |
-| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| WHEN I...                                                      | THEN I...                                                                                                                                                                 | GitHub Issue |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | visit the site for the first time                              | am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in |
 | click on the homepage option                                   | am taken to the homepage                                                                                                                                                  |
 | click on any other links in the navigation                     | am prompted to either sign up or sign in                                                                                                                                  |
@@ -25,7 +25,7 @@ _GIVEN a CMS-style blog site..._
 | am signed in to the site                                       | see navigation links for the homepage, the dashboard, and the option to log out                                                                                           |
 | click on the homepage option in the navigation                 | am taken to the homepage and presented with existing blog posts that include the post title and the date created                                                          |
 | click on an existing blog post                                 | am presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment                                |
-| enter a comment and click on the submit button while signed in | e comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created                                                   |
+| enter a comment and click on the submit button while signed in | will save the comment and the post is updated to display the comment, the comment creator’s username, and the date created                                                |
 | click on the dashboard option in the navigation                | am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post                                                  |
 | click on the button to add a new blog post                     | am prompted to enter both a title and contents for my blog post                                                                                                           |
 | click on the button to create a new blog post                  | e title and contents of my post are saved and I am taken back to an updated dashboard with my new blog post                                                               |
@@ -37,9 +37,9 @@ _GIVEN a CMS-style blog site..._
 
 ## Structure & Setup
 
----
+## tl;dr: MVC pattern w/ Node, Express, Handlebars, & Sequelize ORM
 
-### [Model-View Controller patter (MVC)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+### [Model-View-Controller pattern (MVC)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 
 ---
 
@@ -73,9 +73,15 @@ _GIVEN a CMS-style blog site..._
 |     | [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) |                                     |
 |     | [nodemon](https://www.npmjs.com/package/nodemon) (dev dependency)                    |                                     |
 
+### Git Branches
+
+-   main = production-ready
+-   develop = for testing
+-   dev/\* = coding/setup for the app
+-   feature/\* = functionality
+
 ### GitHub Issues
 
-1. set up skeleton structure
-1. 
-1.
-1.
+#### set up skeleton structure
+
+####
