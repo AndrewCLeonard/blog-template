@@ -2,11 +2,10 @@
 	"name": "blog-template",
 	"description": "## Requirements",
 	"version": "1.0.0",
-	"main": "app.js",
-  "type": "module",
+	"main": "app.mjs",
 	"scripts": {
 		"test": "test",
-		"watch": "nodemon app.js"
+		"watch": "nodemon app.mjs"
 	},
 	"repository": {
 		"type": "git",

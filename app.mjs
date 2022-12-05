@@ -1,10 +1,6 @@
-// don't know if this path import is correct:
-import path from "node:path";
-
 import express from "express";
-import { engine } from "express-handlebars";
-
 const app = express();
+import { engine } from "express-handlebars";
 
 app.engine("handlebars", engine());
 app.set("view engine", "handlebars");

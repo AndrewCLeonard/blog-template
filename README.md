@@ -84,4 +84,12 @@ _GIVEN a CMS-style blog site..._
 
 #### set up skeleton structure
 
-####
+## Things I learned
+
+-   create files with brackets separated with comma (no spaces) to create multiple directories or files at once
+-   use `import postData from "./blog_posts.json" assert { type: "json" };` to directly import json files?
+
+========================================================
+
+-   set up db/schema.sql
+-   created seed files
