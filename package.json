@@ -5,7 +5,8 @@
 	"main": "app.mjs",
 	"scripts": {
 		"test": "test",
-		"watch": "nodemon app.mjs"
+		"watch": "nodemon server.js",
+		"seed": "./seeds/index.js"
 	},
 	"repository": {
 		"type": "git",

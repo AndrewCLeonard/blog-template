@@ -93,3 +93,23 @@ _GIVEN a CMS-style blog site..._
 
 -   set up db/schema.sql
 -   created seed files
+
+## Problems
+
+### using sequelize
+
+with the `app.mjs` file, I get:
+
+```
+at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16) {
+    errno: -51,
+    code: 'ENETUNREACH',
+    syscall: 'connect',
+    address: '10.0.2.2',
+    port: 3001,
+    fatal: true
+  }
+}
+```
+
+changing entry point to `server.js` copy of module work
